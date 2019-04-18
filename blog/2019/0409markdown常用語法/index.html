@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="UTF-8" lang="UTF-8" >
+
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Markdown常用語法 &middot; Zassou!</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://u141b.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://u141b.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://u141b.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://u141b.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Zassou!" />
+
+  
+</head>
+
+<body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://u141b.github.io/">
+        <h1>Zassou!</h1>
+      </a>
+      <p class="lead">
+         Note about trying 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://u141b.github.io/">Blog</a> </li>
+        <li><a href="/tags/"> Tags </a></li><li><a href="/post"> Posts </a></li><li><a href="/about/"> About </a></li>
+      </ul>
+    </nav>
+
+    <p class="copyright-p">&copy;
+      2019 <a href="https://u141b.github.io/">Zassou!</a> all rights
+      reserved.
+      
+    </p>
+  </div>
+</aside>
+  <main class="content container">
+    <div class="post">
+  <h1 class="post-title"><a href="https://u141b.github.io/">Markdown常用語法</a></h1>
+
+  <div class="post-date">
+    <ul>
+      <li><time>2019-04-09</time></li>
+      <li>
+        Tags: 
+        <a class="tags-list" href="/tags/markdown">Markdown</a>
+        
+        </li>
+    </ul>
+  </div>
+
+  
+
+<p>架了Hugo來玩。<br />
+Hugo沒有後台編輯區，要PO文是用Markdown編寫內容。<br />
+這裡memo幾個使用率高的語法。（先展示後放語法。）</p>
+
+<ul>
+<li><h3 id="段落">段落</h3>
+
+<p>以空白行分隔。</p></li>
+
+<li><h3 id="斷行">斷行</h3>
+
+<p>行末兩個空格。</p></li>
+
+<li><h3 id="標題">標題</h3>
+
+<h1 id="h1">h1</h1>
+
+<pre><code>h1  or # h1
+===
+</code></pre></li>
+</ul>
+
+<p>## h2</p>
+
+<pre><code>  ## h2
+</code></pre>
+
+<p>以下列推。</p>
+
+<ul>
+<li><h3 id="字體">字體</h3>
+
+<p><em>斜體</em> : <code>*斜體* = _斜體_</code><br />
+<strong>粗體</strong> : <code>**粗體** = __粗體__</code><br />
+<em>可以 <strong>組合</strong></em> : <code>_可以 **組合**_</code><br />
+<del>刪除線</del> : <code>~~刪除線~~</code></p></li>
+
+<li><h3 id="連結">連結</h3>
+
+<ul>
+<li><a href="http://github.com">http://github.com</a> : 自動生成<br /></li>
+<li><a href="http://github.com">GitHub</a>  : <code>[GitHub](http://github.com)</code><br /></li>
+</ul></li>
+
+<li><h3 id="圖片">圖片</h3>
+
+<p><code>![圖片內容](圖片網址)</code></p></li>
+
+<li><h3 id="清單">清單</h3></li>
+
+<li><p>Item 1</p></li>
+
+<li><p>Item 2</p>
+
+<ul>
+<li>Item 2a<br /></li>
+<li>Item 2b<br /></li>
+</ul></li>
+</ul>
+
+<pre><code>- Item 1
+- Item 2
+  - Item 2a
+  - Item 2b
+</code></pre>
+
+<ol>
+<li>Item 1<br /></li>
+<li>Item 2<br /></li>
+<li>Item 3<br />
+
+<ol>
+<li>Item 3a<br /></li>
+<li>Item 3b<br /></li>
+</ol></li>
+</ol>
+
+<pre><code>1. Item 1
+2. Item 2
+3. Item 3
+   1. Item 3a
+   1. Item 3b (編號照順序或沒照順序都可以)
+</code></pre>
+
+<ul>
+<li>### 引用<br />
+引用的範例：<br />
+&gt; 引用的內容<br />
+&gt;&gt; 還可以來個兩層<br /></li>
+</ul>
+
+<pre><code>&gt; 引用的內容
+&gt;&gt; 還可以來個兩層
+</code></pre>
+
+<ul>
+<li><h3 id="水平線">水平線</h3>
+
+<hr />
+
+<p><code>---</code>、<code>***</code>、<code>___</code>都可以，最少三個。</p></li>
+
+<li><h3 id="行內語法">行內語法</h3>
+
+<p>在這裡插入<code>&lt;br /&gt;</code>語法 。</p></li>
+</ul>
+
+<pre><code>在這裡插入`&lt;br /&gt;`語法 。
+</code></pre>
+
+<ul>
+<li>### 語法演示<br />
+<code>html
+&lt;p&gt;列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A1&lt;/li&gt;
+&lt;li&gt;A2&lt;/li&gt;
+&lt;/ul&gt;
+</code></li>
+</ul>
+
+<pre><code>‵ ‵ ‵ html (語法種類)
+&lt;p&gt;列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A1&lt;/li&gt;
+&lt;li&gt;A2&lt;/li&gt;
+&lt;/ul&gt;
+‵ ‵ ‵ (因為編碼會出錯所以這裡打全形，實際上 ‵ 都是 ` )
+</code></pre>
+
+<p>加行數</p>
+
+<pre><code class="language-html">&lt;p&gt;列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A1&lt;/li&gt;
+&lt;li&gt;A2&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<pre><code>‵ ‵ ‵ html {.line-numbers}
+&lt;p&gt;列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A1&lt;/li&gt;
+&lt;li&gt;A2&lt;/li&gt;
+&lt;/ul&gt;
+‵ ‵ ‵
+</code></pre>
+
+<ul>
+<li>### 表格<br /></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code>| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 | 
+(其實沒空格也可以，只是我覺得這樣比較整齊)
+</code></pre>
+
+<p>表格的部分還有其他進階用法，但疑似要再加掛才有效果。<br />
+目前這些就蠻夠用的，還可以自由搭配再變化。</p>
+
+
+  <div class="post-footer">
+    <ul>
+      <li>
+        by <a href="/about">Maowo</a>
+      </li>
+      <li><time>2019-04-09</time></li>
+      <li>
+        Tags: 
+        <a class="tags-list" href="/tags/markdown">Markdown</a>
+        
+        
+      </li>
+    </ul>
+  </div>
+  <hr>
+  <footer class="back-button">
+    <a href="https://u141b.github.io/">-Home-</a>
+  </footer>
+</div>
+
+
+  </main>
+
+  
+</body>
+
+</html>

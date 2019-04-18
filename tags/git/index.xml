@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Zassou!</title>
+    <link>https://u141b.github.io/tags/git/</link>
+    <description>Recent content in Git on Zassou!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>UTF-8</language>
+    <lastBuildDate>Wed, 17 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://u141b.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git的各種memo</title>
+      <link>https://u141b.github.io/blog/2019/0417git%E7%9A%84%E5%90%84%E7%A8%AEmemo/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://u141b.github.io/blog/2019/0417git%E7%9A%84%E5%90%84%E7%A8%AEmemo/</guid>
+      <description>給自己memo用的快查清單。（隨時更新） VSCcode - 更改預設終端機 1. 開啟設定的json 2. 搜尋 terminal.integrated.shell.windows 3. 更改路徑 ..\\Git\\bin\\bash.exe Git Bash（指令同Linux） - 更改起始位</description>
+    </item>
+    
+  </channel>
+</rss>
