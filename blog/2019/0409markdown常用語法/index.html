@@ -76,59 +76,56 @@
 Hugo沒有後台編輯區，要PO文是用Markdown編寫內容。<br />
 這裡memo幾個使用率高的語法。（先展示後放語法。）</p>
 
-<ul>
-<li><h3 id="段落">段落</h3>
+<h3 id="段落">段落</h3>
 
-<p>以空白行分隔。</p></li>
+<p>以空白行分隔。</p>
 
-<li><h3 id="斷行">斷行</h3>
+<h3 id="斷行">斷行</h3>
 
-<p>行末兩個空格。</p></li>
+<p>行末兩個空格。</p>
 
-<li><h3 id="標題">標題</h3>
+<h3 id="標題">標題</h3>
 
 <h1 id="h1">h1</h1>
 
 <pre><code>h1  or # h1
 ===
-</code></pre></li>
-</ul>
+</code></pre>
 
-<p>## h2</p>
+<h2 id="h2">h2</h2>
 
-<pre><code>  ## h2
+<pre><code>## h2
 </code></pre>
 
 <p>以下列推。</p>
 
-<ul>
-<li><h3 id="字體">字體</h3>
+<h3 id="字體">字體</h3>
 
 <p><em>斜體</em> : <code>*斜體* = _斜體_</code><br />
 <strong>粗體</strong> : <code>**粗體** = __粗體__</code><br />
 <em>可以 <strong>組合</strong></em> : <code>_可以 **組合**_</code><br />
-<del>刪除線</del> : <code>~~刪除線~~</code></p></li>
+<del>刪除線</del> : <code>~~刪除線~~</code></p>
 
-<li><h3 id="連結">連結</h3>
+<h3 id="連結">連結</h3>
 
 <ul>
 <li><a href="http://github.com">http://github.com</a> : 自動生成<br /></li>
 <li><a href="http://github.com">GitHub</a>  : <code>[GitHub](http://github.com)</code><br /></li>
-</ul></li>
+</ul>
 
-<li><h3 id="圖片">圖片</h3>
+<h3 id="圖片">圖片</h3>
 
-<p><code>![圖片內容](圖片網址)</code></p></li>
+<p><code>![圖片內容](圖片網址)</code></p>
 
-<li><h3 id="清單">清單</h3></li>
-
-<li><p>Item 1</p></li>
-
-<li><p>Item 2</p>
+<h3 id="清單">清單</h3>
 
 <ul>
-<li>Item 2a<br /></li>
-<li>Item 2b<br /></li>
+<li>Item 1</li>
+<li>Item 2
+
+<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
 </ul></li>
 </ul>
 
@@ -139,13 +136,13 @@ Hugo沒有後台編輯區，要PO文是用Markdown編寫內容。<br />
 </code></pre>
 
 <ol>
-<li>Item 1<br /></li>
-<li>Item 2<br /></li>
-<li>Item 3<br />
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3
 
 <ol>
-<li>Item 3a<br /></li>
-<li>Item 3b<br /></li>
+<li>Item 3a</li>
+<li>Item 3b</li>
 </ol></li>
 </ol>
 
@@ -156,42 +153,37 @@ Hugo沒有後台編輯區，要PO文是用Markdown編寫內容。<br />
    1. Item 3b (編號照順序或沒照順序都可以)
 </code></pre>
 
-<ul>
-<li>### 引用<br />
-引用的範例：<br />
+<h3 id="引用">引用</h3>
+
+<p>引用的範例：<br />
 &gt; 引用的內容<br />
-&gt;&gt; 還可以來個兩層<br /></li>
-</ul>
+&gt;&gt; 還可以來個兩層</p>
 
 <pre><code>&gt; 引用的內容
 &gt;&gt; 還可以來個兩層
 </code></pre>
 
-<ul>
-<li><h3 id="水平線">水平線</h3>
+<h3 id="水平線">水平線</h3>
 
 <hr />
 
-<p><code>---</code>、<code>***</code>、<code>___</code>都可以，最少三個。</p></li>
+<p><code>---</code>、<code>***</code>、<code>___</code>都可以，最少三個。</p>
 
-<li><h3 id="行內語法">行內語法</h3>
+<h3 id="行內語法">行內語法</h3>
 
-<p>在這裡插入<code>&lt;br /&gt;</code>語法 。</p></li>
-</ul>
+<p>插入<code>&lt;br /&gt;</code>語法 。</p>
 
-<pre><code>在這裡插入`&lt;br /&gt;`語法 。
+<pre><code>插入`&lt;br /&gt;`語法 。
 </code></pre>
 
-<ul>
-<li>### 語法演示<br />
-<code>html
-&lt;p&gt;列表：&lt;/p&gt;
+<h3 id="語法演示">語法演示</h3>
+
+<pre><code class="language-html">&lt;p&gt;列表：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A1&lt;/li&gt;
 &lt;li&gt;A2&lt;/li&gt;
 &lt;/ul&gt;
-</code></li>
-</ul>
+</code></pre>
 
 <pre><code>‵ ‵ ‵ html (語法種類)
 &lt;p&gt;列表：&lt;/p&gt;
@@ -220,9 +212,7 @@ Hugo沒有後台編輯區，要PO文是用Markdown編寫內容。<br />
 ‵ ‵ ‵
 </code></pre>
 
-<ul>
-<li>### 表格<br /></li>
-</ul>
+<h3 id="表格">表格</h3>
 
 <table>
 <thead>
@@ -249,7 +239,8 @@ Hugo沒有後台編輯區，要PO文是用Markdown編寫內容。<br />
 </code></pre>
 
 <p>表格的部分還有其他進階用法，但疑似要再加掛才有效果。<br />
-目前這些就蠻夠用的，還可以自由搭配再變化。</p>
+目前這些就蠻夠用的，還可以自由搭配再變化。<br />
+要注意空白跟斷行。</p>
 
 
   <div class="post-footer">

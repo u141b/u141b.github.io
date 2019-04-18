@@ -17,7 +17,7 @@
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://u141b.github.io/blog/2019/0417git%E7%9A%84%E5%90%84%E7%A8%AEmemo/</guid>
-      <description>給自己memo用的快查清單。（隨時更新） VSCcode - 更改預設終端機 1. 開啟設定的json 2. 搜尋 terminal.integrated.shell.windows 3. 更改路徑 ..\\Git\\bin\\bash.exe Git Bash（指令同Linux） - 更改起始位</description>
+      <description>給自己memo用的快查清單。（隨時更新） VSCcode 更改預設終端機 開啟設定的json 搜尋 terminal.integrated.shell.windows 更改路徑 ..\\Git\\bin\\bash.exe Git Bash （指令同Linux） - 更改起始位子 開啟Git\</description>
     </item>
     
   </channel>
