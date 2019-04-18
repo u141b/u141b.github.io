@@ -201,25 +201,40 @@ Hugo沒有後台編輯區，要PO文是用Markdown編寫內容。<br />
 <table>
 <thead>
 <tr>
-<th>A</th>
-<th>B</th>
-<th>C</th>
+<th align="right">A</th>
+<th align="center">B</th>
+<th align="left">C</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td>1:</td>
-<td>:2:</td>
-<td>:3</td>
+<td align="right">00000</td>
+<td align="center">00000</td>
+<td align="left">00000</td>
+</tr>
+
+<tr>
+<td align="right">1</td>
+<td align="center">1</td>
+<td align="left">1</td>
+</tr>
+
+<tr>
+<td align="right">2</td>
+<td align="center">2</td>
+<td align="left">2</td>
 </tr>
 </tbody>
 </table>
 
-<pre><code>| A | B | C |
-|---|---|---|
-| 1:|:2:|:3 | 
-(其實沒空格也可以，只是我覺得這樣比較整齊)
+<pre><code>  A  |  B  |  C
+ ---:|:---:|:---  (冒號決定對齊方式)
+00000|00000|00000
+  1  |  1  |  1
+  2  |  2  |  2  
+(空格不影響排版)
+(外側 | 有無皆可)
 </code></pre>
 
 <p>表格的部分還有其他進階用法，但疑似要再加掛才有效果。<br />
