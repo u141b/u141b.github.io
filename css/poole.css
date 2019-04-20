@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", 'Microsoft JhengHei', 'Microsoft YaHei', 'Noto Sans SC', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Source Han Sans CN', 'Source Han Sans TC', Helvetica, Arial, sans-serif, SimSun, 'PingFang SC', 'Hiragino Sans GB', STHeiti;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Verdana, Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "PingFang TC", Meiryo, "微軟正黑體", "Microsoft JhengHei", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: .1em;
